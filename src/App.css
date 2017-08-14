@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Poppins|Questrial");
+body {
+  background: url('https://source.unsplash.com/Q1p7bh3SHj8') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.App-header, h5 {
+  margin: 20px 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  border-radius: 0;
+  background: black;
+}
+
+.search {
+  cursor: pointer;
+}
+
+.Searchbar, .SearchResults {
+  margin-top: 40px;
+}
+
+.jumbotron {
+  background: #A28D5B;
+  border: 2px solid black;
+  height: 250px;
+  overflow-y: scroll;
+  font-family: 'Questrial', sans-serif;
+}
+
+.jumbotron p {
+  font-size: 1.2em;
+}
+
+.jumbotron h2, h2 a:link {
+  font-family: 'Bree Serif', serif;
+  color: black;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  /* remove scrollbar space */
+  background: transparent;
+  /* optional: just make scrollbar invisible */
+}
+
+::-moz-scrollbar {
+  width: 0px;
+  /* remove scrollbar space */
+  background: transparent;
+  /* optional: just make scrollbar invisible */
+}
+
+::-o-scrollbar {
+  width: 0px;
+  /* remove scrollbar space */
+  background: transparent;
+  /* optional: just make scrollbar invisible */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
